@@ -1,0 +1,17 @@
+query SeriesCharacters {
+    characters {
+        results {
+            id
+            name
+            image
+            origin {
+                name
+                dimension
+            }
+            episode {
+                name
+                air_date
+            }
+        }
+    }
+}
